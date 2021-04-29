@@ -1,3 +1,12 @@
+// Descrizione:
+// Stampare a schermo un messaggio all’interno di un h1, utilizzando i data.
+// Bonus:
+// Aggiungere alla pagina un’immagine, presa anch’essa da un data.
+
+
+
+
+//APRO IL FRAMEWORK VUE
 const app = new Vue(
     {
         el: `#vueContainer`,
@@ -8,9 +17,12 @@ const app = new Vue(
             classiTitolo: "text-white background-image",
             paragrafo: "Questa frase è vera o falsa secondo te?",
             classiParagrafo: "text-center font-size",
-            classiButton: "text-center2 classeButton"
+            classiButton: "text-center2 classeButton",
+            immagine:"https://cdn.pixabay.com/photo/2016/09/08/04/12/programmer-1653351_960_720.png",
+            immaginiClassi:"immaginiClassi",
 
         },
+        //FACCIO DUE FUNZIONI PER I BOTTONI DEL COLORE E UNA PER RESETTARE LE IMPOSTAZIONI PRECEDENTI
         methods: {
             cambioColoreRosso: function () {
                 if (this.classiTitolo) {

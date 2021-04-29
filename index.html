@@ -21,9 +21,11 @@
             </button>
         </div>
         <div v-bind:class="classiButton">
-            <button @click="resetInputs">Reset</button>  
+            <button @click="resetInputs">Reset</button>
         </div>
-            
+        <div v-bind:class="immaginiClassi">
+            <img v-bind:src="immagine"  alt="programmatore">
+        </div>
     </main>
     <script src="myscript.js"></script>
 </body>

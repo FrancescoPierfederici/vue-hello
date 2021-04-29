@@ -30,3 +30,8 @@
     margin-top: 10px;
    
 }
+.immaginiClassi{
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+}
