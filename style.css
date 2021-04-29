@@ -1,0 +1,32 @@
+.text-white{
+    color:rgb(255, 192, 140);
+    padding: 40px;
+}
+.background-image{
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/30/20/44/computer-1873831_960_720.png);
+    background-size: cover;
+    border-radius: 20px;
+    margin-bottom:20px;
+}
+.text-center{
+    display: flex;
+    justify-content: center;
+}
+.font-size{
+    font-size: 20px;
+}
+.text-red{
+    color: red;
+    padding: 40px;
+}
+.text-blue{
+    color: royalblue;
+    padding: 40px;
+}
+.text-center2{
+    text-align: center;
+}
+.classeButton{
+    margin-top: 10px;
+   
+}
